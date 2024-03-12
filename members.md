@@ -72,11 +72,13 @@ Republic of Korea
 | Gangeun Park   | B.S. in Chemistry, SNU                              | gangeun@snu.ac.kr       |
 | Hyeonsung Byeon| B.S. in Applied Biology and Chemistry, SNU          | hsbyeon1@snu.ac.kr      |
 
+<!--
 ## Postdoctoral Researchers
 
 | Name            | Affiliation                                                                 |
 | --------------- | --------------------------------------------------------------------------- |
 |                 |                                                                             |
+-->
 
 ## Internship Members
 
