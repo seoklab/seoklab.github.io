@@ -6,7 +6,6 @@ categories:
   - Applications
 tags:
   - Loop structure prediction
-redirect_to: 
-accepted_in: 2024-06-07
+redirect_to: https://doi.org/10.1371/journal.pcbi.1012239
 ---
 *Manuscript in press*
