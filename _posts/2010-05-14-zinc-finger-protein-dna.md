@@ -7,5 +7,5 @@ categories:
 tags:
   - protein-dna interaction
   - zinc finger
-redirect_to: https://doi.org/10.1002/jcc.27092
+redirect_to: https://doi.org/10.1021/jp1017289
 ---
