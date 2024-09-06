@@ -7,5 +7,4 @@ categories:
 tags:
   - protein-ligand docking
 redirect_to: https://doi.org/10.1016/j.jmb.2024.168617
-accepted_in: 2024-05-14
 ---
