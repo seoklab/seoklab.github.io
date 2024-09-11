@@ -7,6 +7,4 @@ categories:
 tags:
   - protein-ligand docking
 redirect_to: https://doi.org/10.1021/acs.jctc.4c00385
-accepted_in: 2024-08-07
 ---
-*Manuscript in press*
