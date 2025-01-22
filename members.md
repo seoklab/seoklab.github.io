@@ -87,7 +87,7 @@ Republic of Korea
 | Yooshin Kim     | Department of Biological Science, SNU                    |
 | Juhan Hong      | Department of Chemistry, SNU                             |
 | Yoonkeon Kim    | Department of Biological Sciences & Chemistry, SNU       |
-
+| Jaehyeong Kong  | Department of Chemistry, SNU                             | 
 
 
 ## Administrative Assistant
