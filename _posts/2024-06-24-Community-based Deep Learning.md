@@ -3,8 +3,8 @@ title: "Protein Loop Structure Prediction by Community-based Deep Learning and i
 authors: Hyeonuk Woo, Yubeen Kim, and Chaok Seok*
 journal: PLoS Computational Biology
 categories:
-  - Applications
+  - Protein structure prediction
 tags:
-  - Loop structure prediction
+  - loop modeling
 redirect_to: https://doi.org/10.1371/journal.pcbi.1012239
 ---

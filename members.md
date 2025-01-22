@@ -85,10 +85,9 @@ Republic of Korea
 | --------------- | -------------------------------------------------------- |
 | Jeongmoo Jun    | College of Medicine, SNU                                 |
 | Yooshin Kim     | Department of Biological Science, SNU                    |
-| Dongyun Kim     | Department of Chemistry, SNU                             |
 | Juhan Hong      | Department of Chemistry, SNU                             |
 | Yoonkeon Kim    | Department of Biological Sciences & Chemistry, SNU       |
-
+| Jaehyeong Kong  | Department of Chemistry, SNU                             | 
 
 
 ## Administrative Assistant
