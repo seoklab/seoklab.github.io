@@ -1,7 +1,7 @@
 ---
 title: "Discovery of highly active kynureninases for cancer immunotherapy through protein language model"
 authors: Hyunuk Eom, Sukhwan Park, Kye Soo Cho, Jihyeon Lee, Hyunbin Kim, Stephanie Kim, Jinsol Yang, Young-Hyun Han, Juyong Lee, Chaok Seok, Myeong Sup Lee*, Woon Ju Song*, Martin Steinegger*
-journal: Journal of Cheminformatics
+journal: Nucleic Acids Research
 categories:
   - Applications and collaborations
 tags:
