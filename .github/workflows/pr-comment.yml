@@ -1,0 +1,42 @@
+name: Comment to PR
+
+on:
+  pull_request_target:
+    branches:
+      - master
+    paths-ignore:
+      - ".github/workflows/pages-build.yml"
+      - ".github/workflows/pr-clean.yml"
+      - ".gitignore"
+      - "CNAME"
+      - "LICENSE.txt"
+      - "README.md"
+    types:
+      - opened
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  get-basepath:
+    if: ${{ !github.event.pull_request.draft }}
+    uses: ./.github/workflows/_get_basepath.yml
+
+  comment:
+    needs: [get-basepath]
+    runs-on: ubuntu-latest
+    if: ${{ github.repository_owner == 'seoklab' }}
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Thanks for your contribution! Your changes will be reflected in <https://cluster.seoklab.org:8443/${{ needs.get-basepath.outputs.base_path }}>. Please check the link and merge this PR if everything is fine.'
+            });

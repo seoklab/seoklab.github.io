@@ -76,21 +76,3 @@ jobs:
 
       - name: Extract artifact
         run: tar -C ~/www/html/"$base_path" -xvf ${{ steps.download.outputs.download-path }}/artifact.tar
-
-  comment:
-    needs: [get-basepath]
-    runs-on: ubuntu-latest
-    if: ${{ github.event.action == 'opened' }}
-    permissions:
-      issues: write
-      pull-requests: write
-    steps:
-      - uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: 'Thanks for your contribution! Your changes will be reflected in <https://cluster.seoklab.org:8443/${{ needs.get-basepath.outputs.base_path }}>. Please check the link and merge this PR if everything is fine.'
-            });

@@ -19,5 +19,8 @@ jobs:
       - name: Get basepath
         id: base-path
         run: |
-          base_path="staging/${{ github.event.repository.name }}/${{ github.event.number }}"
-          echo "base_path=$base_path" >>$GITHUB_OUTPUT
+          base_path="staging/$repo_name/$pr_number"
+          echo "base_path=$base_path" >>"$GITHUB_OUTPUT"
+        env:
+          repo_name: ${{ github.event.repository.name }}
+          pr_number: ${{ github.event.number }}
