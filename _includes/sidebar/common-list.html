@@ -23,7 +23,7 @@
       </a>
     </li>
 
-    {%- for key in  keys -%}
+    {%- for key in keys -%}
       {%- assign items = site.posts | where: field, key -%}
       {%- assign key_lower = key | downcase -%}
       {%- if items.size < min_cnt or key_lower == 'misc' or key_lower == 'miscellaneous' -%}

@@ -2,8 +2,10 @@
 
 {%- assign journals = '' -%}
 {%- for post in site.posts -%}
-  {%- assign journal = post.journal -%}
-  {%- assign journals = journals | append: split_mark  | append: journal -%}
+  {%- if post.journal and post.submitted_in == nil -%}
+    {%- assign journal = post.journal -%}
+    {%- assign journals = journals | append: split_mark  | append: journal -%}
+  {%- endif -%}
 {% endfor %}
 
 {% assign return = journals
