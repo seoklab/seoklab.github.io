@@ -30,13 +30,13 @@ redirect_to: <article doi>
 ```
 
 If a publication is accepted, but not yet published in an issue, set the first
-digit of the year to `9`, and add `accepted_in: YYYY-MM-DD` to the front matter.
+digit of the year to `8`, and add `accepted_in: YYYY-MM-DD` to the front matter.
 If the publication is not even published online (i.e., no DOI is available),
 also add text `*Manuscript in press*` to the content instead redirecting to a
 DOI. Full example:
 
-```**yaml**
-# File: _posts/90xx-MM-DD-awesome-title.md
+```yaml
+# File: _posts/80xx-MM-DD-awesome-title.md
 ---
 title: "<Title>"
 authors: <Authors>
@@ -52,6 +52,29 @@ tags:
 accepted_in: 20xx-MM-DD
 ---
 *Manuscript in press*
+```
+
+If a publication is submitted, but not yet accepted for publication, set the
+digit of the year to `9`, and add `submitted_in: YYYY-MM-DD` to the front
+matter. Also set journal to `(Under Review)`, **including the parentheses**.
+Full example:
+
+```yaml
+# File: _posts/90xx-MM-DD-awesome-title.md
+---
+title: "<Title>"
+authors: <Authors>
+journal: (Under Review)
+categories:
+  - <category 1>
+  - <category 2>
+  - ...
+tags:
+  - <tag 1>
+  - <tag 2>
+  - ...
+submitted_in: 20xx-MM-DD
+---
 ```
 
 Note that the date **should be updated as soon as possible** to the date of
