@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a directory for (published) journal articles.
+This is a directory for journal articles.
 
 ## How to add a new publication
 
