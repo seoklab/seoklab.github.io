@@ -27,25 +27,24 @@
   </h2>
   <h3 class="post-subtitle">{{ subheading | default: post_subtitle }}</h3>
   <div class="post-meta">
-    <span class="post-date"><i class="fa-solid fa-calendar-day"></i> {% if post.submitted_in -%}
-        <a class="post-tag" href="{{ archive }}#h-submitted">(Submitted in) {{ post.submitted_in | date: date_format }}</a>
+    <span class="post-date"><i class="fa-solid fa-calendar-day"></i>
+      {% if post.submitted_in -%}
+        <a href="{{ archive }}#h-submitted">(Submitted in) {{ post.submitted_in | date: date_format }}</a>
       {%- elsif post.journal == nil -%}
-        {{ post.date | date: date_format }}
+        <span>{{ post.date | date: date_format }}</span>
       {%- elsif post.accepted_in -%}
-        <a class="post-tag" href="{{ archive }}#h-unpublished">(Accepted in) {{ post.accepted_in | date: date_format }}</a>
+        <a href="{{ archive }}#h-unpublished">(Accepted in) {{ post.accepted_in | date: date_format }}</a>
       {%- else -%}
-        <a class="post-tag" href="{{ archive }}#h-{{ post.date | date: '%Y' }}">{{ post.date | date: date_format }}</a>
+        <a href="{{ archive }}#h-{{ post.date | date: '%Y' }}">{{ post.date | date: date_format }}</a>
       {%- endif -%}
     </span>
     {%- if post.use_mtime -%}
-    <span class="post-date left-vsplit"><i class="fa-solid fa-pen-to-square"></i> {{ post.last_modified_at | date: ldf }}</span>
+    <span class="post-date left-vsplit"><i class="fa-solid fa-pen-to-square"></i> <span>{{ post.last_modified_at | date: ldf }}</span></span>
     {%- endif -%}
     {%- if post.submitted_in -%}
-    <span class="left-vsplit"><a class="post-tag"
-      href="{{ '/publications/archives.html ' | relative_url }}#h-submitted">(Under review)</a></span>
+    <span class="left-vsplit">(Under review)</span>
     {%- elsif post.journal -%}
-    <span class="left-vsplit post-journal"><i class="fa-solid fa-newspaper"></i> <a class="post-tag"
-        href="{{ '/publications/journals.html ' | relative_url }}#h-{{post.journal}}">{{ post.journal }}</a></span>
+    <span class="left-vsplit post-journal"><i class="fa-solid fa-newspaper"></i> <a href="{{ '/publications/journals.html ' | relative_url }}#h-{{post.journal}}">{{ post.journal }}</a></span>
     {%- endif -%}
   </div>
   {%- assign article_strip = article | strip_newlines -%}
