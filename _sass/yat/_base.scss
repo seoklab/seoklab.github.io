@@ -1,3 +1,7 @@
+@use "sass:color";
+
+@use "shared" as *;
+
 /**
  * Reset some basic elements
  */
@@ -266,14 +270,14 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 5%);
+  color: color.adjust($text-color, $lightness: 5%);
   border-collapse: collapse;
   overflow: auto;
   font-size: 90%;
 
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: color.adjust($grey-color-light, $lightness: 6%);
     }
   }
 
@@ -286,9 +290,9 @@ table {
   }
 
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: color.adjust($grey-color-light, $lightness: 3%);
+    border: 1px solid color.adjust($grey-color-light, $lightness: -4%);
+    border-bottom-color: color.adjust($grey-color-light, $lightness: -12%);
   }
 
   td {
@@ -344,9 +348,11 @@ table {
  * Horizontal center
  */
 @mixin horizontal-center($position) {
-  position: $position;
-  left: 50%;
-  transform: translateX(-50%);
+  & {
+    position: $position;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 /**

@@ -1,15 +1,16 @@
-@charset "utf-8";
+@use "sass:color";
 
 // Deprecation Warning: Using / for division outside of calc() is deprecated
 // and will be removed in Dart Sass 2.0.0.
 // Recommendation: math.div($header-height, 1.5) or calc($header-height / 1.5)
 // More info and automated migrator: https://sass-lang.com/d/slash-div
-@use 'sass:math';
-@use 'sass:meta';
+@use "sass:math";
+@use "sass:meta";
 
 // Define defaults for each variable.
 
-$base-font-family: Apple SD Gothic Neo, Nanum Gothic, Malgun Gothic, Helvetica Neue, Helvetica, Arial, sans-serif, !default;
+$base-font-family: Apple SD Gothic Neo, Nanum Gothic, Malgun Gothic,
+  Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
@@ -18,12 +19,12 @@ $base-transition-duration: 0.3s !default;
 
 $spacing-unit: 30px !default;
 
-$text-color:       #1d1d1f !default;
+$text-color: #1d1d1f !default;
 $background-color: #fff !default;
 
-$grey-color:       #777 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark: darken($grey-color, 25%) !default;
+$grey-color: #777 !default;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%) !default;
+$grey-color-dark: color.adjust($grey-color, $lightness: -25%) !default;
 
 $white-color: #fdfdfd !default;
 $black-color: #010101 !default;
@@ -31,15 +32,18 @@ $black-color: #010101 !default;
 $table-text-align: left !default;
 
 $header-height: $base-line-height * $base-font-size * 2.85 !default;
-$header-text-color: invert($theme-color) !default;
+$header-text-color: color.invert($theme-color) !default;
 $header-background-color: $theme-color !default;
 
 $footer-height: $header-height !default;
-$footer-text-color: lighten(invert($theme-color), 25%) !default;
-$footer-background-color: darken($theme-color, 5%) !default;
+$footer-text-color: color.adjust(
+  color.invert($theme-color),
+  $lightness: 25%
+) !default;
+$footer-background-color: color.adjust($theme-color, $lightness: -5%) !default;
 
 $banner-height: 640px !default;
-$banner-text-color: lighten($white-color, 0%) !default;
+$banner-text-color: color.adjust($white-color, $lightness: 0%) !default;
 $banner-background: rgba(0, 0, 0, 0.8) !default;
 
 // Width of the content area
@@ -70,13 +74,9 @@ $on-laptop: 1250px !default;
 // Deprecation Warning: Using / for division outside of calc() is deprecated
 // and will be removed in Dart Sass 2.0.0."
 @function divide($dividend, $divisor: 1) {
-  @if meta.function-exists('div', 'math') {
+  @if meta.function-exists("div", "math") {
     @return math.div($dividend, $divisor);
   } @else {
     @return ($dividend / $divisor);
   }
 }
-
-// Import partials.
-@import "yat/base", "yat/layout", "yat/dark", "misc/theme-toggle",
-  "misc/article-menu", "misc/common-list", "misc/click-to-top";
