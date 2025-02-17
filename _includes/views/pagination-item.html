@@ -29,7 +29,7 @@
   <div class="post-meta">
     <span class="post-date"><i class="fa-solid fa-calendar-day"></i>
       {% if post.journal %}
-      {% if post.accepted_in %}<a class="post-tag" href="{{ archive }}#h-unpublished">(Accepted in) {{ post.accepted_in | date: date_format }}</a>{% else %}<a class="post-tag" href="{{ archive }}#h-{{ post.date | date: '%Y' }}">{{ post.date | date:
+      {% if post.accepted_in %}<a class="post-tag" href="{{ archive }}#h-unpublished">(Accepted in) {{ post.accepted_in | date: date_format }}</a>{% elsif post.submitted_in %}<a class="post-tag" href="{{ archive }}#h-submitted">(Submitted in) {{ post.submitted_in | date: date_format }}</a>{% else %}<a class="post-tag" href="{{ archive }}#h-{{ post.date | date: '%Y' }}">{{ post.date | date:
         date_format }}</a>{% endif %}{% else %}{{ post.date | date: date_format }}{% endif %}</span>
     {%- if post.use_mtime -%}
     <span class="post-date left-vsplit"><i class="fa-solid fa-pen-to-square"></i> {{ post.last_modified_at | date: ldf }}</span>

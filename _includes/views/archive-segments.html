@@ -1,4 +1,15 @@
 <div class="page-segments">
+  {%- if include.submitted.size > 0 -%}
+    <h2 id="submitted" class="segment-name">Under review</h2>
+    <div>
+      <ul class="page-segments-list">
+        {%- for item in include.submitted -%}
+          <li> {%- include views/post-item.html -%} </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  {%- endif -%}
+
   {%- if include.unpublished.size > 0 -%}
     <h2 id="unpublished" class="segment-name">Unpublished / Early Access</h2>
     <div>
