@@ -9,6 +9,9 @@
 {%- if post.accepted_in -%}
   {%- assign post_date = post.accepted_in | date: date_format -%}
   {%- assign post_date = "(Accepted in) " | append: post_date -%}
+{%- elsif post.submitted_in -%}
+  {%- assign post_date = post.submitted_in | date: date_format -%}
+  {%- assign post_date = "(Submitted in) " | append: post_date -%}
 {%- endif -%}
 <span class="post-meta">{{ post_date }}</span>
 <span>
