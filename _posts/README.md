@@ -56,15 +56,13 @@ accepted_in: 20xx-MM-DD
 
 If a publication is submitted, but not yet accepted for publication, set the
 digit of the year to `9`, and add `submitted_in: YYYY-MM-DD` to the front
-matter. Also set journal to `(Under Review)`, **including the parentheses**.
-Full example:
+matter. Omit the `journal` field. Full example:
 
 ```yaml
 # File: _posts/90xx-MM-DD-awesome-title.md
 ---
 title: "<Title>"
 authors: <Authors>
-journal: (Under Review)
 categories:
   - <category 1>
   - <category 2>

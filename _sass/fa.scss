@@ -1,7 +1,7 @@
-@import "fa/fontawesome.scss";
-@import "fa/solid.scss";
-@import "fa/regular.scss";
-@import "fa/brands.scss";
+@use "fa/fontawesome";
+@use "fa/solid";
+@use "fa/regular";
+@use "fa/brands";
 
 .fa-arrow-up-right-from-square {
   font-size: 0.8em;
@@ -11,10 +11,6 @@
 
 .fa-calendar-day {
   vertical-align: 10%;
-}
-
-.fa-newspaper {
-  vertical-align: 5%;
 }
 
 .fa-pen-to-square {
