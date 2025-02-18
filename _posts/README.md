@@ -30,13 +30,13 @@ redirect_to: <article doi>
 ```
 
 If a publication is accepted, but not yet published in an issue, set the first
-digit of the year to `8`, and add `accepted_in: YYYY-MM-DD` to the front matter.
+digit of the year to `7`, and add `accepted_in: YYYY-MM-DD` to the front matter.
 If the publication is not even published online (i.e., no DOI is available),
 also add text `*Manuscript in press*` to the content instead redirecting to a
 DOI. Full example:
 
 ```yaml
-# File: _posts/80xx-MM-DD-awesome-title.md
+# File: _posts/70xx-MM-DD-awesome-title.md
 ---
 title: "<Title>"
 authors: <Authors>
@@ -55,8 +55,28 @@ accepted_in: 20xx-MM-DD
 ```
 
 If a publication is submitted, but not yet accepted for publication, set the
-digit of the year to `9`, and add `submitted_in: YYYY-MM-DD` to the front
+digit of the year to `8`, and add `submitted_in: YYYY-MM-DD` to the front
 matter. Omit the `journal` field. Full example:
+
+```yaml
+# File: _posts/80xx-MM-DD-awesome-title.md
+---
+title: "<Title>"
+authors: <Authors>
+categories:
+  - <category 1>
+  - <category 2>
+  - ...
+tags:
+  - <tag 1>
+  - <tag 2>
+  - ...
+submitted_in: 20xx-MM-DD
+---
+```
+
+For in-progress publications, set the digit of the year to `9`, and add
+`in_prep: true` to the front matter.
 
 ```yaml
 # File: _posts/90xx-MM-DD-awesome-title.md
@@ -71,7 +91,7 @@ tags:
   - <tag 1>
   - <tag 2>
   - ...
-submitted_in: 20xx-MM-DD
+in_prep: true
 ---
 ```
 

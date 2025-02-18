@@ -6,17 +6,23 @@
 
 {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
 {%- assign post_date = post.date | date: date_format -%}
-{%- if post.accepted_in -%}
+{%- if post.in_prep -%}
+  {%- if include.omit_prep -%}
+    {%- assign post_date = "" -%}
+  {%- else -%}
+    {%- assign post_date = "(Manuscript in preparation)" -%}
+  {%- endif -%}
+{%- elsif post.accepted_in -%}
   {%- assign post_date = post.accepted_in | date: date_format -%}
   {%- assign post_date = "(Accepted in) " | append: post_date -%}
 {%- elsif post.submitted_in -%}
   {%- assign post_date = post.submitted_in | date: date_format -%}
   {%- assign post_date = "(Submitted in) " | append: post_date -%}
 {%- endif -%}
-<span class="post-meta">{{ post_date }}</span>
-<span>
-  <a class="post-link" href="{{ post.url | relative_url }}" {%- if post.redirect_to -%} target="_blank" rel="noopener noreferrer"{%- endif -%}>
-    {{ post.title }}
-    {%- include views/post-badges.html -%}
-  </a>
-</span>
+
+{%- if post_date != "" -%}
+  <span class="post-meta">{{ post_date }}</span>
+{%- endif -%}
+<a class="post-link" href="{{ post.url | relative_url }}" {%- if post.redirect_to -%} target="_blank" rel="noopener noreferrer"{%- endif -%}>{{ post.title }}
+  {%- include views/post-badges.html -%}
+</a>
