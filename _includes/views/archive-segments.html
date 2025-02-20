@@ -1,4 +1,15 @@
 <div class="page-segments">
+  {%- if include.prep.size > 0 -%}
+    <h2 id="in-preparation" class="segment-name">In Progress</h2>
+    <div>
+      <ul class="page-segments-list">
+        {%- for item in include.prep -%}
+          <li> {%- include views/post-item.html omit_prep=true -%} </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  {%- endif -%}
+
   {%- if include.submitted.size > 0 -%}
     <h2 id="submitted" class="segment-name">Under Review</h2>
     <div>

@@ -927,13 +927,10 @@ html {
   .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    margin-right: 5px;
   }
 
   li a {
-    &.post-link {
-      margin-left: 5px;
-    }
-
     color: #333;
 
     &:hover {
