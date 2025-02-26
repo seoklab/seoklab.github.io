@@ -1,8 +1,9 @@
 {%- assign split_mark = '<|>' -%}
 
+{%- assign prep = site.posts | where_exp: "item", "item.in_prep" -%}
 {%- assign submitted = site.posts | where_exp: "item", "item.submitted_in != nil" -%}
 {%- assign unpublished = site.posts | where_exp: "item", "item.accepted_in != nil" -%}
-{%- assign published = site.posts | where_exp: "item", "item.submitted_in == nil and item.accepted_in == nil" -%}
+{%- assign published = site.posts | where_exp: "item", "item.in_prep == nil and item.submitted_in == nil and item.accepted_in == nil" -%}
 {%- for post in published -%}
   {%- assign name = post.date | date: filter -%}
   {%- assign dates = dates | append: split_mark | append: name -%}
@@ -25,6 +26,7 @@
 {%- assign end = end | divided_by: 10 -%}
 
 {%- include {{ include.sub }}
+  prep=prep
   submitted=submitted
   unpublished=unpublished
   published=published
