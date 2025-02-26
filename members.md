@@ -100,7 +100,7 @@ Republic of Korea
 
 | Name              | Current Position                                                                                     | Course in SeokLab                                           |
 | ----------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Hakjean Kim       | Researcher, Seoul National University                                                                | M.S., 2024                                                  |
+| Hakjean Kim       | Researcher, ROKA                                                                                     | M.S., 2024                                                  |
 | Jihyeon Lee       | Ph.D. student, Department of Pharmaceutical Sciences, University of Maryland                         | M.S., 2023                                                  |
 | Hyeonuk Woo       | Researcher, Galux Inc.                                                                               | Ph.D., 2023                                                 |
 | Katsuhito Inui    | Researcher, Ohsong Pharm                                                                             | M.S., 2022                                                  |
