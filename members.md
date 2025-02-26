@@ -62,7 +62,7 @@ Republic of Korea
 | Nuri Jung      | B.S. in Chemistry & Computational Sciences, SNU     | jnooree@snu.ac.kr       |
 | Wooyeop Jeong  | B.S. in Chemistry Education, SNU                    | dnduq97@snu.ac.kr       |
 | Sujin Park     | B.S. in Chemistry, SNU                              | safopanda@snu.ac.kr     |
-| Yubeen Kim     | B.S. in Chemistry, SNU                              | oilbeen@snu.ac.kr       |
+| Yubeen Kim     | B.S. & M.S. in Chemistry, SNU                       | oilbeen@snu.ac.kr       |
 | Byunghyun Bae  | B.S. in Pharmacy, CAU & M.S. in Chemistry, SNU      | bbh9955@snu.ac.kr       |
 | Byungwook Kim  | B.S. in Chemistry, SNU                              | bwkim1324@snu.ac.kr     |
 | Hongsuk Kim    | B.S. in Chemistry, SNU                              | khs01654@snu.ac.kr      |
