@@ -54,7 +54,6 @@ Republic of Korea
 
 | Name           | Educational Background                              | E-mail                  |
 | -------------- | --------------------------------------------------- | ----------------------- |
-| Changsoo Lee   | B.S. & M.S. in Pharmacy, SNU                        | ccaa2013@snu.ac.kr      |
 | Jiho Sim       | B.S. in Chemistry, SNU                              | j2hosim@snu.ac.kr       |
 | Sumin Lee      | B.S. in Biological Sciences, SNU                    | keepthrword22@snu.ac.kr |
 | Jayun Choi     | B.S. in Chemistry, SNU                              | jychoi9809@snu.ac.kr    |
@@ -99,7 +98,7 @@ Republic of Korea
 
 | Name              | Current Position                                                                                     | Course in SeokLab                                           |
 | ----------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-
+| Changsoo Lee      | Researcher, Galux Inc.                                                                               | Ph.D., 2025                                                 |
 | Jeonghyeon Kim    | Researcher, Seoul National University                                                                | M.S., 2025                                                  |
 | Hakjean Kim       | Researcher, ROKA                                                                                     | M.S., 2024                                                  |
 | Jihyeon Lee       | Ph.D. student, Department of Pharmaceutical Sciences, University of Maryland                         | M.S., 2023                                                  |
