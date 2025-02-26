@@ -64,7 +64,6 @@ Republic of Korea
 | Wooyeop Jeong  | B.S. in Chemistry Education, SNU                    | dnduq97@snu.ac.kr       |
 | Sujin Park     | B.S. in Chemistry, SNU                              | safopanda@snu.ac.kr     |
 | Yubeen Kim     | B.S. in Chemistry, SNU                              | oilbeen@snu.ac.kr       |
-| Jeonghyeon Kim | B.S. in Chemical and Biological Engineering & Computer Science and Engineering, SNU                              | jasonkjh@snu.ac.kr       |
 | Byunghyun Bae  | B.S. in Pharmacy, CAU                               | bbh9955@snu.ac.kr       |
 | Byungwook Kim  | B.S. in Chemistry, SNU                              | bwkim1324@snu.ac.kr     |
 | Hongsuk Kim    | B.S. in Chemistry, SNU                              | khs01654@snu.ac.kr      |
@@ -100,6 +99,8 @@ Republic of Korea
 
 | Name              | Current Position                                                                                     | Course in SeokLab                                           |
 | ----------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+
+| Jeonghyeon Kim    | Researcher, Seoul National University                                                                | M.S., 2025                                                  |
 | Hakjean Kim       | Researcher, ROKA                                                                                     | M.S., 2024                                                  |
 | Jihyeon Lee       | Ph.D. student, Department of Pharmaceutical Sciences, University of Maryland                         | M.S., 2023                                                  |
 | Hyeonuk Woo       | Researcher, Galux Inc.                                                                               | Ph.D., 2023                                                 |
