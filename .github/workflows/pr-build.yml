@@ -5,7 +5,6 @@ on:
     branches:
       - master
     paths-ignore:
-      - ".github/workflows/pages-build.yml"
       - ".github/workflows/pr-clean.yml"
       - ".gitignore"
       - "CNAME"
