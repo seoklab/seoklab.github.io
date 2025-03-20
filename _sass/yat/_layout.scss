@@ -374,6 +374,11 @@ html {
     color: $grey-color;
     word-break: break-word;
     overflow-wrap: break-word;
+    font-style: italic;
+
+    .read_more {
+      font-style: normal;
+    }
   }
 
   .post-tags .post-tag {
