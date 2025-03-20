@@ -38,5 +38,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Thanks for your contribution! Your changes will be reflected in <https://cluster.seoklab.org:8443/${{ needs.get-basepath.outputs.base_path }}>. Please check the link and merge this PR if everything is fine.'
+              body: 'Thanks for your contribution! Your changes will be reflected in <https://cluster-web.seoklab.org/${{ needs.get-basepath.outputs.base_path }}>. Please check the link and merge this PR if everything is fine.'
             });

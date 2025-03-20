@@ -42,7 +42,7 @@ jobs:
 
       - name: Patch link
         run: |
-          sed -i "s#https://seoklab.org#https://cluster.seoklab.org:8443#g" _config.yml
+          sed -i "s#https://seoklab.org#https://cluster-web.seoklab.org#g" _config.yml
 
       - uses: ruby/setup-ruby@v1
         with:
