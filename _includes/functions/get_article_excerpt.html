@@ -1,6 +1,21 @@
+{%- assign return = "__unset__" -%}
+{%- if post.in_prep -%}
+  {%- assign return = "Manuscript in preparation" -%}
+{%- elsif post.submitted_in -%}
+  {%- assign return = "Under review" -%}
+{%- elsif post.accepted_in and post.redirect_to == nil -%}
+  {%- assign return = "Manuscript in press" -%}
+{%- elsif post.redirect_to -%}
+  {%- assign return = "" -%}
+{%- endif -%}
+
 {%- if include.params.article -%}
   {%- assign article = include.params.article -%}
 {%- endif -%}
+
+{%- assign article_strip = article | strip_newlines -%}
+
+{%- unless return != '__unset__' or article_strip == '' -%}
 
 {%- if include.params.lang -%}
   {%- assign lang = include.params.lang -%}
@@ -43,3 +58,5 @@
 {%- else -%}
 {%- assign excerpt_truncated = false -%}
 {%- endif -%}
+
+{%- endunless -%}

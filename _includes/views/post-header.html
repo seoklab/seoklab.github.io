@@ -8,13 +8,20 @@
 {%- endif -%}
 
 {%- if page.accepted_in -%}
-{%- assign prefix = "(Accepted in) " -%}
-{%- assign page_date = page.accepted_in | date: date_format -%}
-{%- assign page_date = prefix | append: page_date -%}
-{%- assign page_date_schema = page.accepted_in | date_to_xmlschema -%}
+  {%- assign prefix = "(Accepted in) " -%}
+  {%- assign page_date = page.accepted_in | date: date_format -%}
+  {%- assign page_date = prefix | append: page_date -%}
+  {%- assign page_date_schema = page.accepted_in | date_to_xmlschema -%}
+{%- elsif page.submitted_in -%}
+  {%- assign page_date = page.submitted_in | date: date_format -%}
+  {%- assign page_date = "(Submitted in) " | append: page_date -%}
+  {%- assign page_date_schema = page.submitted_in | date_to_xmlschema -%}
+{%- elsif page.in_prep -%}
+  {%- assign page_date = "" -%}
+  {%- assign page_date_schema = "" -%}
 {%- else -%}
-{%- assign page_date = page.date | date: date_format -%}
-{%- assign page_date_schema = page.date | date_to_xmlschema -%}
+  {%- assign page_date = page.date | date: date_format -%}
+  {%- assign page_date_schema = page.date | date_to_xmlschema -%}
 {%- endif -%}
 
 
@@ -22,6 +29,7 @@
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
+  {%- if page_date != '' -%}
   <div class="post-meta">
     <div class="post-meta-inner">
       <time class="dt-published" datetime="{{ page_date_schema }}" itemprop="datePublished">
@@ -31,6 +39,7 @@
       {%- endif -%}
     </div>
   </div>
+  {%- endif -%}
 
   {%- if page.tags.size > 0 -%}
   <div class="post-tags">

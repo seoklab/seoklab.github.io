@@ -7,8 +7,6 @@
 {%- assign article = post.content -%}
 {%- assign lang = post.lang -%}
 {%- assign post_url = post.url | relative_url -%}
-{%- include functions.html func='get_reading_time' -%}
-{%- assign reading_time = return -%}
 
 {%- if post.subtitle -%}
   {%- assign post_subtitle = post.subtitle -%}
@@ -45,17 +43,14 @@
       {%- if post.use_mtime -%}
       <span class="post-date left-vsplit"><i class="fa-solid fa-pen-to-square"></i> <span>{{ post.last_modified_at | date: ldf }}</span></span>
       {%- endif -%}
-      {%- if post.submitted_in -%}
-      <span class="left-vsplit">(Under review)</span>
-      {%- elsif post.journal -%}
+      {%- if post.journal -%}
       <span class="left-vsplit post-journal"><i class="fa-solid fa-newspaper"></i> <a href="{{ '/publications/journals.html ' | relative_url }}#h-{{post.journal}}">{{ post.journal }}</a></span>
       {%- endif -%}
     {%- endif -%}
   </div>
-  {%- assign article_strip = article | strip_newlines -%}
-  {%- if article_strip != '' -%}
-    {%- include functions.html func='get_article_excerpt' -%}
-    {%- assign excerpt = return -%}
+  {%- include functions.html func='get_article_excerpt' -%}
+  {%- assign excerpt = return -%}
+  {%- if excerpt != '' -%}
     <div class="post-excerpt">
       {{ excerpt }}
       {% if excerpt_truncated %}
