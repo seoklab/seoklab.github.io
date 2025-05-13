@@ -46,13 +46,13 @@ jobs:
 
     steps:
       - run: |
-          curl -X PATCH "$CF_API_ENDPOINT" -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type:application/json" -d "$CF_API_PAYLOAD"
+          curl -fsSL -X PATCH "$CF_API_ENDPOINT" -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type:application/json" -d "$CF_API_PAYLOAD" -o /dev/null
         env:
           CF_API_ENDPOINT: ${{ vars.CF_API_ENDPOINT }}
           CF_API_PAYLOAD: ${{ vars.CF_API_PAYLOAD }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 
       - run: |
-          curl -X POST "$SLACK_API_ENDPOINT" -H "Content-Type: application/json" -d '{"action-id": "${{ github.run_id }}"}'
+          curl -fsSL -X POST "$SLACK_API_ENDPOINT" -H "Content-Type: application/json" -d '{"action-id": "${{ github.run_id }}"}' -o /dev/null
         env:
           SLACK_API_ENDPOINT: ${{ secrets.SLACK_API_ENDPOINT }}
