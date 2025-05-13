@@ -595,7 +595,8 @@ html {
       margin: 30px 0 19px;
     }
 
-    p {
+    p,
+    hr {
       margin-bottom: 24px;
     }
 
@@ -603,7 +604,6 @@ html {
       height: 1px;
       background-color: #ebebeb;
       border: none;
-      margin: 60px 0;
     }
 
     th {
@@ -703,8 +703,8 @@ html {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  margin: 72px 0 59px;
-  padding: 31px 0 0;
+  margin: $spacing-unit * 0.5 0;
+  padding: 0;
   gap: 36px;
   @include relative-font-size(1.125);
 
@@ -720,14 +720,14 @@ html {
     align-items: center;
 
     * {
-        overflow: hidden;
-        text-wrap-mode: nowrap;
-        text-overflow: ellipsis;
+      overflow: hidden;
+      text-wrap-mode: nowrap;
+      text-overflow: ellipsis;
     }
   }
 
   .previous:before {
-    content: ' ';
+    content: " ";
     border: solid #787878;
     border-width: 0 2px 2px 0;
     display: inline-block;
@@ -738,7 +738,7 @@ html {
   }
 
   .next:after {
-    content: ' ';
+    content: " ";
     border: solid #787878;
     border-width: 0 2px 2px 0;
     display: inline-block;
