@@ -3,7 +3,7 @@ name: Watch GalaxyWeb service
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
 
 defaults:
   run:
