@@ -26,6 +26,11 @@ jobs:
               exit 0
             fi
 
+            if [[ $i -eq 5 ]]; then
+              echo "GalaxyWeb is down after $i attempts. Exiting with failure."
+              exit 1
+            fi
+
             echo "Attempt $i: GalaxyWeb is down ($status). Retrying in 10 seconds..."
             sleep 10
           done
