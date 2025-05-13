@@ -19,7 +19,7 @@ jobs:
     steps:
       - run: |
           for i in {1..5}; do
-            status="$(curl -fsSLI https://galaxy.seoklab.org -o /dev/null -w '%{http_code}')"
+            status="$(curl -sSLI https://galaxy.seoklab.org -o /dev/null -w '%{http_code}')"
 
             if [[ $status == 200 ]]; then
               echo "GalaxyWeb is up and running."
@@ -43,8 +43,8 @@ jobs:
       - run: |
           curl -X PATCH "$CF_API_ENDPOINT" -H "Authorization: Bearer $CF_API_TOKEN" -H "Content-Type:application/json" -d "$CF_API_PAYLOAD"
         env:
-          CF_API_ENDPOINT: ${{ env.CF_API_ENDPOINT }}
-          CF_API_PAYLOAD: ${{ env.CF_API_PAYLOAD }}
+          CF_API_ENDPOINT: ${{ vars.CF_API_ENDPOINT }}
+          CF_API_PAYLOAD: ${{ vars.CF_API_PAYLOAD }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 
       - run: |
