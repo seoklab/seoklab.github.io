@@ -595,9 +595,15 @@ html {
       margin: 30px 0 19px;
     }
 
-    p,
-    hr {
+    p {
       margin-bottom: 24px;
+    }
+
+    hr {
+      height: 1px;
+      background-color: #ebebeb;
+      border: none;
+      margin: 60px 0;
     }
 
     th {
@@ -697,8 +703,9 @@ html {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  margin: $spacing-unit * 0.5 0;
-  padding: 0;
+  margin: 72px 0 59px;
+  padding: 31px 0 0;
+  gap: 36px;
   @include relative-font-size(1.125);
 
   i {
@@ -709,6 +716,36 @@ html {
   a {
     color: $grey-color;
     max-width: 45%;
+    display: flex;
+    align-items: center;
+
+    * {
+        overflow: hidden;
+        text-wrap-mode: nowrap;
+        text-overflow: ellipsis;
+    }
+  }
+
+  .previous:before {
+    content: ' ';
+    border: solid #787878;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-right: 8px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .next:after {
+    content: ' ';
+    border: solid #787878;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
   }
 }
 

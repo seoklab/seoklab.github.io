@@ -34,13 +34,16 @@ sidebar:
         {%- if page.previous -%}
         <i class="fa-solid fa-angle-left"></i>
         <a class="previous" href="{{ page.previous.url | relative_url }}" title="{{
-                  page.previous.title | escape }}">{{ page.previous.title | escape | truncatewords: 6 }}</a>
+                  page.previous.title | escape }}">
+          <div>{{ page.previous.title | escape }}</div>
+        </a>
         {%- endif -%}
       </span>
       <span>
         {%- if page.next -%}
-        <a class="next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title | escape }}">{{
-          page.next.title | escape | truncatewords: 6 }}</a>
+        <a class="next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title | escape }}">
+          <div>{{ page.next.title | escape }}</div>
+        </a>
         <i class="fa-solid fa-angle-right"></i>
         {%- endif -%}
       </span>
