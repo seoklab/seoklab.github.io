@@ -55,7 +55,7 @@ Republic of Korea
 | Name           | Educational Background                              | E-mail                  |
 | -------------- | --------------------------------------------------- | ----------------------- |
 | Jiho Sim       | B.S. in Chemistry, SNU                              | j2hosim@snu.ac.kr       |
-| Sumin Lee      | B.S. in Biological Sciences & M.S in Artificial Intelligence , SNU                    | keepthrword22@snu.ac.kr |
+| Sumin Lee      | B.S. in Biological Sciences & M.S in Artificial Intelligence, SNU                    | keepthrword22@snu.ac.kr |
 | Jayun Choi     | B.S. in Chemistry, SNU                              | jychoi9809@snu.ac.kr    |
 | Seho Lee       | B.S. in Chemistry, SNU                              | tp1928@snu.ac.kr        |
 | Seeun Kim      | B.S. in Chemistry, SNU                              | ehdqn04@snu.ac.kr       |
@@ -67,7 +67,7 @@ Republic of Korea
 | Byungwook Kim  | B.S. in Chemistry, SNU                              | bwkim1324@snu.ac.kr     |
 | Hongsuk Kim    | B.S. in Chemistry, SNU                              | khs01654@snu.ac.kr      |
 | Gangeun Park   | B.S. in Chemistry, SNU                              | gangeun@snu.ac.kr       |
-| Hyeonsung Byeon| B.S. in Applied Biology and Chemistry, SNU          | hsbyeon1@snu.ac.kr      |
+| Hyeonsung Byeon| B.S. in Applied Biology and Chemistry & Chemistry, SNU          | hsbyeon1@snu.ac.kr      |
 
 <!--
 ## Postdoctoral Researchers
