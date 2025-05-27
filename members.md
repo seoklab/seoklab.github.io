@@ -34,15 +34,15 @@ title: Members
 
 #### Mailing address
 
-Department of Chemistry  
-Seoul National University  
-Seoul, 08826  
+Department of Chemistry
+Seoul National University
+Seoul, 08826
 Republic of Korea
 
 #### Contacts
 
 - chaok@snu.ac.kr
-- <a href="tel:+82-2-880-9197" class="tel-link">+82-2-880-9197</a> (Office)  
+- <a href="tel:+82-2-880-9197" class="tel-link">+82-2-880-9197</a> (Office)
   <a href="tel:+82-2-880-4355" class="tel-link">+82-2-880-4355</a> (Lab)
 
 ### Location
@@ -55,7 +55,7 @@ Republic of Korea
 | Name           | Educational Background                              | E-mail                  |
 | -------------- | --------------------------------------------------- | ----------------------- |
 | Jiho Sim       | B.S. in Chemistry, SNU                              | j2hosim@snu.ac.kr       |
-| Sumin Lee      | B.S. in Biological Sciences, SNU                    | keepthrword22@snu.ac.kr |
+| Sumin Lee      | B.S. in Biological Sciences & M.S in Artificial Intelligence , SNU                    | keepthrword22@snu.ac.kr |
 | Jayun Choi     | B.S. in Chemistry, SNU                              | jychoi9809@snu.ac.kr    |
 | Seho Lee       | B.S. in Chemistry, SNU                              | tp1928@snu.ac.kr        |
 | Seeun Kim      | B.S. in Chemistry, SNU                              | ehdqn04@snu.ac.kr       |
@@ -85,8 +85,15 @@ Republic of Korea
 | Yooshin Kim     | Department of Biological Science, SNU                    |
 | Juhan Hong      | Department of Chemistry, SNU                             |
 | Yoonkeon Kim    | Department of Biological Sciences & Chemistry, SNU       |
-| Jaehyeong Kong  | Department of Chemistry, SNU                             | 
+| Jaehyeong Kong  | Department of Chemistry, SNU                             |
+| Jiwon Park      | Department of Chemistry, SNU                             |
+| Yumin Kim       | Department of Chemistry, SNU                             |
 
+## Visiting Members
+
+| Name            | Affiliation                                              |
+| --------------- | -------------------------------------------------------- |
+| Junghyun Bang   | B.S. in Biochemistry, King's College London & M.S. in Drug Discovery and Development, UCL              |
 
 ## Administrative Assistant
 
