@@ -86,7 +86,14 @@ Republic of Korea
 | Juhan Hong      | Department of Chemistry, SNU                             |
 | Yoonkeon Kim    | Department of Biological Sciences & Chemistry, SNU       |
 | Jaehyeong Kong  | Department of Chemistry, SNU                             |
+| Jiwon Park      | Department of Chemistry, SNU                             |
+| Yumin Kim       | Department of Chemistry, SNU                             |
 
+## Visiting Members
+
+| Name            | Affiliation                                              |
+| --------------- | -------------------------------------------------------- |
+| Junghyun Bang   | B.S. in Biochemistry, King's College London & M.S. in Drug Discovery and Development, UCL              |
 
 ## Administrative Assistant
 
