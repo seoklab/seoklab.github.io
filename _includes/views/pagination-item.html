@@ -32,10 +32,10 @@
         <i class="fa-solid fa-calendar-day"></i>
         {% if post.submitted_in -%}
           <a href="{{ archive }}#h-submitted">(Submitted in) {{ post.submitted_in | date: date_format }}</a>
-        {%- elsif post.journal == nil -%}
-          <span>{{ post.date | date: date_format }}</span>
         {%- elsif post.accepted_in -%}
           <a href="{{ archive }}#h-unpublished">(Accepted in) {{ post.accepted_in | date: date_format }}</a>
+        {%- elsif post.journal == nil -%}
+          <span>{{ post.date | date: date_format }}</span>
         {%- else -%}
           <a href="{{ archive }}#h-{{ post.date | date: '%Y' }}">{{ post.date | date: date_format }}</a>
         {%- endif -%}
