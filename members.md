@@ -82,10 +82,10 @@ Republic of Korea
 | Jeongmoo Jun   | College of Medicine, SNU                           |
 | Yooshin Kim    | Department of Biological Science, SNU              |
 | Juhan Hong     | Department of Chemistry, SNU                       |
-| Yoonkeon Kim   | Department of Biological Sciences & Chemistry, SNU |
 | Jaehyeong Kong | Department of Chemistry, SNU                       |
-| Jiwon Park     | Department of Chemistry, SNU                       |
 | Yumin Kim      | Department of Chemistry, SNU                       |
+| Yunmin Kim     | Department of Chemistry, GIST                      |
+| Bonjae Ku      | College of Liberal Studies, SNU                    |
 
 ## Administrative Assistant
 
