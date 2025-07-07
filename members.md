@@ -86,6 +86,8 @@ Republic of Korea
 | Jaehyeong Kong | Department of Chemistry, SNU                       |
 | Jiwon Park     | Department of Chemistry, SNU                       |
 | Yumin Kim      | Department of Chemistry, SNU                       |
+| Yunmin Kim     | Department of Chemistry, GIST                      |
+| Bonjae Ku      | College of Liberal Studies, SNU                    |
 
 ## Administrative Assistant
 
