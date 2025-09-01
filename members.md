@@ -68,23 +68,15 @@ Republic of Korea
 | Hongsuk Kim     | B.S. in Chemistry, SNU                                                   | khs01654@snu.ac.kr      |
 | Gangeun Park    | B.S. in Chemistry, SNU                                                   | gangeun@snu.ac.kr       |
 | Hyeonsung Byeon | B.S. in Applied Biology and Chemistry & Chemistry, SNU                   | hsbyeon1@snu.ac.kr      |
-
-## Visiting Students
-
-| Name          | Affiliation                                                                                |
-| ------------- | ------------------------------------------------------------------------------------------ |
-| Junghyun Bang | M.S. in Drug Discovery and Development, UCL<br>B.S. in Biochemistry, King's College London |
+| Yooshin Kim	  | B.S. Department of Biological Science, SNU		                     | rladbtls1998@snu.ac.kr  |
 
 ## Internship Members
 
 | Name           | Affiliation                                        |
 | -------------- | -------------------------------------------------- |
 | Jeongmoo Jun   | College of Medicine, SNU                           |
-| Yooshin Kim    | Department of Biological Science, SNU              |
-| Juhan Hong     | Department of Chemistry, SNU                       |
 | Jaehyeong Kong | Department of Chemistry, SNU                       |
 | Yumin Kim      | Department of Chemistry, SNU                       |
-| Yunmin Kim     | Department of Chemistry, GIST                      |
 | Bonjae Ku      | College of Liberal Studies, SNU                    |
 
 ## Administrative Assistant
