@@ -68,7 +68,7 @@ Republic of Korea
 | Hongsuk Kim     | B.S. in Chemistry, SNU                                                   | khs01654@snu.ac.kr      |
 | Gangeun Park    | B.S. in Chemistry, SNU                                                   | gangeun@snu.ac.kr       |
 | Hyeonsung Byeon | B.S. in Applied Biology and Chemistry & Chemistry, SNU                   | hsbyeon1@snu.ac.kr      |
-| Yooshin Kim	  | B.S. Department of Biological Science, SNU		                     | rladbtls1998@snu.ac.kr  |
+| Yooshin Kim     | B.S. in Biological Science, SNU                                          | rladbtls1998@snu.ac.kr  |
 
 ## Internship Members
 
