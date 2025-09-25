@@ -18,21 +18,25 @@ jobs:
 
     steps:
       - run: |
-          for i in {1..5}; do
-            status="$(curl -sSLI https://galaxy.seoklab.org -o /dev/null -w '%{http_code}')"
+          while true; do
+            for i in {1..5}; do
+              status="$(curl -sSLI https://galaxy.seoklab.org -o /dev/null -w '%{http_code}')"
 
-            if [[ $status == 200 ]]; then
-              echo "GalaxyWeb is up and running."
-              exit 0
-            fi
+              if [[ $status == 200 ]]; then
+                echo "GalaxyWeb is up and running."
+                break
+              fi
 
-            if [[ $i -eq 5 ]]; then
-              echo "GalaxyWeb is down after $i attempts. Exiting with failure."
-              exit 1
-            fi
+              if [[ $i -eq 5 ]]; then
+                echo "GalaxyWeb is down after $i attempts. Exiting with failure."
+                exit 1
+              fi
 
-            echo "Attempt $i: GalaxyWeb is down ($status). Retrying in 10 seconds..."
-            sleep 10
+              echo "Attempt $i: GalaxyWeb is down ($status). Retrying in 10 seconds..."
+              sleep 10
+            done
+
+            sleep 60
           done
 
   notify:
