@@ -2,6 +2,8 @@ name: Watch GalaxyWeb service
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
   schedule:
     - cron: "*/5 * * * *"
 
@@ -11,6 +13,7 @@ defaults:
 
 concurrency:
   group: galaxyweb-watcher
+  cancel-in-progress: ${{ github.event_name != 'schedule' }}
 
 jobs:
   check:
@@ -18,17 +21,20 @@ jobs:
 
     steps:
       - run: |
+          export TZ="Asia/Seoul"
+
           while true; do
             for i in {1..5}; do
+              datestr="$(date '+%Y-%m-%dT%H:%M:%S%z')"
               status="$(curl -sSLI https://galaxy.seoklab.org -o /dev/null -w '%{http_code}')"
 
               if [[ $status == 200 ]]; then
-                echo "GalaxyWeb is up and running."
+                echo "${datestr} GalaxyWeb is up and running."
                 break
               fi
 
               if [[ $i -eq 5 ]]; then
-                echo "GalaxyWeb is down after $i attempts. Exiting with failure."
+                echo "${datestr} GalaxyWeb is down after $i attempts. Exiting with failure."
                 exit 1
               fi
 
