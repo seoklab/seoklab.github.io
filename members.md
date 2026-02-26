@@ -72,12 +72,12 @@ Republic of Korea
 
 ## Internship Members
 
-| Name           | Affiliation                                        |
-| -------------- | -------------------------------------------------- |
-| Jeongmoo Jun   | College of Medicine, SNU                           |
-| Jaehyeong Kong | Department of Chemistry, SNU                       |
-| Yumin Kim      | Department of Chemistry, SNU                       |
-| Bonjae Ku      | College of Liberal Studies, SNU                    |
+| Name           | Affiliation                                            |
+| -------------- | -------------------------------------------------------|
+| Jeongmoo Jun   | College of Medicine, SNU                               |
+| Jaehyeong Kong | Department of Chemistry, SNU                           |
+| Bonjae Ku      | College of Liberal Studies, SNU                        |
+| Junsang Park   | Department of Chemical and Biological Engineering, SNU |
 
 ## Administrative Assistant
 
