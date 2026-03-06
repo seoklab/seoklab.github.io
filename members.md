@@ -77,6 +77,7 @@ Republic of Korea
 | Jaehyeong Kong | Department of Chemistry, SNU                           |
 | Bonjae Ku      | College of Liberal Studies, SNU                        |
 | Junsang Park   | Department of Chemical and Biological Engineering, SNU |
+| Jaekyun Park   | Department of Chemistry, SNU                           |
 
 ## Administrative Assistant
 
