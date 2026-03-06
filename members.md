@@ -66,9 +66,9 @@ Republic of Korea
 | Byunghyun Bae   | M.S. in Chemistry, SNU<br>B.S. in Pharmacy, CAU                          | bbh9955@snu.ac.kr       |
 | Byungwook Kim   | B.S. in Chemistry, SNU                                                   | bwkim1324@snu.ac.kr     |
 | Hongsuk Kim     | B.S. in Chemistry, SNU                                                   | khs01654@snu.ac.kr      |
-| Gangeun Park    | B.S. in Chemistry, SNU                                                   | gangeun@snu.ac.kr       |
 | Hyeonsung Byeon | B.S. in Applied Biology and Chemistry & Chemistry, SNU                   | hsbyeon1@snu.ac.kr      |
 | Yooshin Kim     | B.S. in Biological Science, SNU                                          | rladbtls1998@snu.ac.kr  |
+| Hyemi Park      | M.S in Chemistry, SGU B.S in Chemistry, SGU                              | hyemi0703@snu.ac.kr     |
 
 ## Internship Members
 
@@ -78,6 +78,7 @@ Republic of Korea
 | Jaehyeong Kong | Department of Chemistry, SNU                           |
 | Bonjae Ku      | College of Liberal Studies, SNU                        |
 | Junsang Park   | Department of Chemical and Biological Engineering, SNU |
+| Jaekyun Park   | Department of Chemistry, SNU                           |
 
 ## Administrative Assistant
 
@@ -89,6 +90,7 @@ Republic of Korea
 
 | Name              | Current Position                                                                       | Course in SeokLab                                           |
 | ----------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Gangeun Park      | Ph.D. student, Department of Biological Sciences, KAIST                                | M.S., 2026                                                  |
 | Changsoo Lee      | Researcher, Galux Inc.                                                                 | Ph.D., 2025                                                 |
 | Jeonghyeon Kim    | Researcher, Seoul National University                                                  | M.S., 2025                                                  |
 | Hakjean Kim       | Researcher, ROKA                                                                       | M.S., 2024                                                  |
