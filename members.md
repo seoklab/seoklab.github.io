@@ -79,6 +79,7 @@ Republic of Korea
 | Bonjae Ku      | College of Liberal Studies, SNU                        |
 | Junsang Park   | Department of Chemical and Biological Engineering, SNU |
 | Jaekyun Park   | Department of Chemistry, SNU                           |
+| Dongha Ham     | Department of Animal Science and Biotechnology, SNU    |
 
 ## Administrative Assistant
 
