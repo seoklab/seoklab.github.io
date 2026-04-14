@@ -93,7 +93,7 @@ Republic of Korea
 | ----------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Gangeun Park      | Ph.D. student, Department of Biological Sciences, KAIST                                | M.S., 2026                                                  |
 | Changsoo Lee      | Researcher, Galux Inc.                                                                 | Ph.D., 2025                                                 |
-| Jeonghyeon Kim    | Researcher, Seoul National University                                                  | M.S., 2025                                                  |
+| Jeonghyeon Kim    | Ph.D. student, Department of Bioengineering and Biomedical Engineering, Duke University| M.S., 2025                                                  |
 | Hakjean Kim       | Researcher, ROKA                                                                       | M.S., 2024                                                  |
 | Jihyeon Lee       | Ph.D. student, Department of Pharmaceutical Sciences, University of Maryland           | M.S., 2023                                                  |
 | Hyeonuk Woo       | Researcher, Galux Inc.                                                                 | Ph.D., 2023                                                 |
@@ -106,7 +106,7 @@ Republic of Korea
 | Jonghun Won       | Director & Co-founder, Galux Inc.                                                      | M.S. and Ph.D., 2021                                        |
 | Minkyung Baek     | Assistant Professor, Department of Biological Sciences, Seoul National University      | Ph.D., 2018                                                 |
 | Martin Steinegger | Assistant Professor, Department of Biological Sciences, Seoul National University      | Visiting Student from Max Planck Institute, 2014, 2016-2018 |
-| Gyu Rie Lee       | Postdoctoral Researcher, Department of Biochemistry, University of Washington          | Ph.D., 2017                                                 |
+| Gyu Rie Lee       | Assistant Professor, Department of Biological Sciences, KAIST                          | Ph.D., 2017                                                 |
 | Matthias Buck     | Professor, Case Western Reserve University                                             | Visiting Professor, 2017                                    |
 | Andrew H. Beaven  | Postdoctoral Researcher, University of Minnesota                                       | Visiting Student from University of Kansas, 2015-2016       |
 | Lim Heo           | Sr. Principal Scientist, Bristol Myers Squibb                                          | Ph.D., 2015                                                 |
@@ -120,10 +120,10 @@ Republic of Korea
 | Junsu Ko          | CEO & Co-founder, Arontier                                                             | Ph.D., 2012                                                 |
 | Junghyun Choi     | Researcher, LG Chemistry                                                               | M.S., 2011                                                  |
 | Juyong Lee        | Assistant Professor, College of Pharmacy, Seoul National University                    | M.S. and Ph.D., 2011                                        |
-| Younkyoung Lee    | Assistant Professor, Electronic Materials Engineering, Jeonbuk National University     | M.S., 2010                                                  |
-| Jungho Lee        | Assistant Professor, Department of Chemistry, Seoul National University                | Research Assistant, 2008                                    |
-| Jungki Yoon       | Assistant Professor, Department of Pulmonology, Seoul National University              | Undergraduate Student, 2008                                 |
+| Younkyoung Lee    | Associate Professor, Electronic Materials Engineering, Jeonbuk National University     | M.S., 2010                                                  |
+| Jungho Lee        | Associate Professor, Department of Chemistry, Seoul National University                | Research Assistant, 2008                                    |
+| Jungki Yoon       | Clinical Assistant Professor, Seoul National University Hospital                       | Undergraduate Student, 2008                                 |
 | Sukki Kang        | Science Writer                                                                         | Graduate Course, 2007                                       |
 | Sangwoo Shim      | Founder & Chief Data Scientist, MakinaRocks                                            | M.S., 2007                                                  |
 | Changho Sohn      | Assistant Professor, Nano Biomedical Engineering, Y-IBS Institute, Yonsei University   | Undergraduate Student, 2006                                 |
-| Heesun Han        | Assistant Professor, Department of Chemistry, University of Illinois, Urbana-Champaign | Undergraduate Student, 2006                                 |
+| Heesun Han        | Associate Professor, Department of Chemistry, University of Illinois, Urbana-Champaign | Undergraduate Student, 2006                                 |
