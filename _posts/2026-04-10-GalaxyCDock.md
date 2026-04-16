@@ -1,6 +1,6 @@
 ---
 title: "GalaxyCDock: Webserver for Covalent Protein–Ligand Binding Mode Prediction"
-authors: Sumin Lee, Nuri Jung, Hyeonuk Woo, Jinsol Yang,, Chaok Seok*
+authors: Sumin Lee, Nuri Jung, Hyeonuk Woo, Jinsol Yang and Chaok Seok*
 journal: Journal of Molecular Biology
 categories:
   - prediction of protein ligand interaction
