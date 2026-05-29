@@ -6,5 +6,5 @@ categories:
   - Prediction of protein ligand interaction
 tags:
   - protein-ligand binding affinity
-redirect_to: https://pubs.acs.org/doi/10.1021/acs.jcim.6c00128
+redirect_to: https://doi.org/10.1021/acs.jcim.6c00128
 ---
