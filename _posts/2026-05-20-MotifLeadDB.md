@@ -1,7 +1,7 @@
 ---
 title: "MotifLeadDB: A Hierarchical Structural Data Set for Congeneric Ligand Binding Activity Change"
 authors: "Nawoon Kim, Byunghyun Bae, Nuri Jung, Chaok Seok and Hahnbeom Park*"
-journal: Journal of Cheminformatics
+journal: Journal of Chemical Information and Modeling
 categories:
   - Prediction of protein ligand interaction
 tags:
