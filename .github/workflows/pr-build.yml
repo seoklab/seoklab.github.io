@@ -35,7 +35,7 @@ jobs:
     env:
       base_path: ${{ needs.get-basepath.outputs.base_path }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
