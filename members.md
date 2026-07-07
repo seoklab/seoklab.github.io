@@ -80,6 +80,8 @@ Republic of Korea
 | Junsang Park   | Department of Chemical and Biological Engineering, SNU |
 | Jaekyun Park   | Department of Chemistry, SNU                           |
 | Dongha Ham     | Department of Animal Science and Biotechnology, SNU    |
+| Wonbin Lee     | Department of Chemistry, SNU                           |
+| Jinyi Hong     | Department of Chemistry, SNU                           |
 
 ## Administrative Assistant
 
