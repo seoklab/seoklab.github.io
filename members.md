@@ -80,6 +80,7 @@ Republic of Korea
 | Dongha Ham   | Department of Animal Science and Biotechnology, SNU    |
 | Wonbin Lee   | Department of Chemistry, SNU                           |
 | Jinyi Hong   | Department of Chemistry, SNU                           |
+| Junwon Lee   | Department of Chemistry, SNU                           |
 
 ## Administrative Assistant
 
